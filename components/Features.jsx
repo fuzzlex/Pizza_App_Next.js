@@ -27,8 +27,8 @@ const Features = () => {
             <div className={styles.imgContainer}>
                 <Image key={i} src={img} alt="" layout="fill" objectFit="contain"/>
                 <div className={styles.arrowContainer}>
-        <Image src="/Img/arrowl.png" alt="" width="100" height="100" onClick={() => handleClick("l")} />
-        <Image src="/Img/arrowr.png" alt="" width="100" height="100" onClick={() => handleClick("r")} />
+        <Image key={i} src="/Img/arrowl.png" alt="" width="100" height="100" onClick={() => handleClick("l")} />
+        <Image key={i} src="/Img/arrowr.png" alt="" width="100" height="100" onClick={() => handleClick("r")} />
     </div>
             </div>
             ))}
