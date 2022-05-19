@@ -1,7 +1,49 @@
 .container{
     background-color: red;
-    height: 100px;
+    height: 15vh;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
+}
+.button{
+    color: aliceblue;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid aliceblue;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.tel{
+    display: flex;
+    flex-basis:11rem ;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+
+}
+.telephone{
+    color: aliceblue;
+}
+.pizza{
+    width: 3rem;
+    height: 3rem;
+    color: aliceblue;
+    cursor: pointer;
+    flex-basis: 5rem;
+}
+.shop{
+    display: flex;
+}
+.span{
+    align-self: flex-start;
+    color: red;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5rem;
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    font-weight: 900;
 }
